@@ -39,6 +39,8 @@ class MainActivity : AppCompatActivity(), GestureDetector.OnGestureListener, Ges
     }
 
 
+
+
     override fun onShowPress(e: MotionEvent?) {
 
     }
