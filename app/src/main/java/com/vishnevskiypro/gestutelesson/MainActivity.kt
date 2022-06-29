@@ -38,25 +38,12 @@ class MainActivity : AppCompatActivity(), GestureDetector.OnGestureListener, Ges
         return true
     }
 
-    /**
-     * The user has performed a down [MotionEvent] and not performed
-     * a move or up yet. This event is commonly used to provide visual
-     * feedback to the user to let them know that their action has been
-     * recognized i.e. highlight an element.
-     *
-     * @param e The down motion event
-     */
+
     override fun onShowPress(e: MotionEvent?) {
 
     }
 
-    /**
-     * Notified when a tap occurs with the up [MotionEvent]
-     * that triggered it.
-     *
-     * @param e The up motion event that completed the first tap
-     * @return true if the event is consumed, else false
-     */
+
     override fun onSingleTapUp(e: MotionEvent?): Boolean {
         TODO("Not yet implemented")
     }
